@@ -1,0 +1,31 @@
+{
+  "name": "subseeker",
+  "version": "0.0.0",
+  "description": "subseeker simple api",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cobaimelan/subseeker.git"
+  },
+  "keywords": [
+    "subtitle",
+    "simple",
+    "api"
+  ],
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "seven": "0.0.4"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "bugs": {
+    "url": "https://github.com/cobaimelan/subseeker/issues"
+  },
+  "scripts": {
+    "test": "mocha test.js --reporter spec"
+  },
+  "author": "Ayhan Kuru <ayhankuru@yandex.com.tr>",
+  "devDependencies": {},
+  "homepage": "https://github.com/cobaimelan/xtorrent"
+}
