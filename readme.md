@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cobaimelan/subseeker.png?branch=master)](https://travis-ci.org/cobaimelan/subseeker)
+
 subtitleseeker.com simple api
 
 
