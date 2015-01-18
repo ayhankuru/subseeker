@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/cobaimelan/subseeker.png?branch=master)](https://travis-ci.org/cobaimelan/subseeker)
+[![Build Status](http://img.shields.io/travis/ayhankuru/subseeker.svg?style=flat-square)](https://travis-ci.org/ayhankuru/subseeker)
+
+
+[![Build Status](https://img.shields.io/david/ayhankuru/subseeker.svg?style=flat-square)](https://david-dm.org/ayhankuru/subseeker)
+
 
 subtitleseeker.com simple api
 
