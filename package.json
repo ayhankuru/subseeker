@@ -1,6 +1,6 @@
 {
   "name": "subseeker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "subseeker simple api",
   "main": "index.js",
   "repository": {
@@ -16,9 +16,6 @@
   "dependencies": {
     "seven": "0.0.4"
   },
-  "engines": [
-    "node >= 0.8.0"
-  ],
   "bugs": {
     "url": "https://github.com/cobaimelan/subseeker/issues"
   },
