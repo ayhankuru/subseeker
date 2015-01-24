@@ -1,23 +1,29 @@
 /* @Name subseeker
-*  @Version 0.0.0
+*  @Version 0.1.0
 *  @author Cobaimelan
 */
-var seven = require('seven')();
+var Promise = require('bluebird');
+var rq      = require('request-promise');
 
 /**
  * search torrent
  * @param {id} string exam: 0434409
- * @param {fn} function 
  */
 
-function subseeker(id,fn){
-	if(id && id !==""){
-		seven.play('http://www.subtitleseeker.com/feeds/titles/'+id+'/json',function(err,data){
-			if(err) fn(err,null);
-			else fn(null,JSON.parse(data));
-		});
+function subseeker(id){
 
-	}
+	return new Promise(function (resolve, reject) {
+	
+		rq('http://www.subtitleseeker.com/feeds/titles/'+id+'/json')
+		.then(function(data){
+		
+		 resolve(JSON.parse(data));
+
+		})
+		.catch(function (err) {
+			reject(err);
+		})
+	});
 }
 
 

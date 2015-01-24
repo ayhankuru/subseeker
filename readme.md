@@ -24,16 +24,18 @@ var subseeker = require('subseeker');
 imdb id search..
 
 ```js
-subseeker('0434409 ',function(err,list){
-    if(err) throw err
-    else console.log(list);
-});
+subseeker('0434409').then(function(data){
+	console.log(data);
+}).catch(function(err){
+	console.log(err);
+})
 ```
 
 ```js
-subseeker('1826940',function(err,torrent){
-    if(err) throw err
-    else console.log(torrent);
-});
+subseeker('1826940').then(function(data){
+	console.log(data);
+}).catch(function(err){
+	console.log(err);
+})
 ```
 
