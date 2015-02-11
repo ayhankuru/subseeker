@@ -7,7 +7,7 @@ var expect = require('expect.js');
 		
 		subseeker('0434409').then(function(data){
 				expect(data).to.be.an('object');
-				expect(data.total_releases).to.eql(508);
+				expect(data.total_releases).to.eql(510);
 				expect(data.title).to.eql("V for Vendetta");
 				expect(data.year).to.eql("2005");
 				done();
