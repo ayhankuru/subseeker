@@ -1,4 +1,4 @@
-[![Build Status](http://img.shields.io/travis/ayhankuru/subseeker.svg?style=flat-square)](https://travis-ci.org/ayhankuru/subseeker)[![Build Status](https://img.shields.io/david/ayhankuru/subseeker.svg?style=flat-square)](https://david-dm.org/ayhankuru/subseeker)[![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat-square)](https://iojs.org)
+[![Travis Build Status](http://img.shields.io/travis/ayhankuru/subseeker.svg?style=flat-square)](https://travis-ci.org/ayhankuru/subseeker) [![Circle Build Status](https://img.shields.io/circleci/project/ayhankuru/subseeker.svg?style=flat-square)](https://circleci.com/gh/ayhankuru/subseeker) [![Build Status](https://img.shields.io/david/ayhankuru/subseeker.svg?style=flat-square)](https://david-dm.org/ayhankuru/subseeker) [![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat-square)](https://iojs.org)
 
 
 subtitleseeker.com simple api
